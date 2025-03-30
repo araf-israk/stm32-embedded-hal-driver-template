@@ -1,0 +1,12 @@
+../Core/Src/stm32411xx_spi_driver.c:25:6:SPI_PeriClockControl	16	static
+../Core/Src/stm32411xx_spi_driver.c:66:6:SPI_Init	24	static
+../Core/Src/stm32411xx_spi_driver.c:125:6:SPI_DeInit	16	static
+../Core/Src/stm32411xx_spi_driver.c:129:9:SPI_GetFlagStatus	16	static
+../Core/Src/stm32411xx_spi_driver.c:151:6:SPI_SendData	24	static
+../Core/Src/stm32411xx_spi_driver.c:188:6:SPI_PeripheralControl	16	static
+../Core/Src/stm32411xx_spi_driver.c:211:6:SPI_SSIConfig	16	static
+../Core/Src/stm32411xx_spi_driver.c:234:6:SPI_SSOEConfig	16	static
+../Core/Src/stm32411xx_spi_driver.c:257:6:SPI_ReceiveData	24	static
+../Core/Src/stm32411xx_spi_driver.c:293:6:SPI_IRQInterruptConfig	16	static
+../Core/Src/stm32411xx_spi_driver.c:312:6:SPI_IRQPriorityConfig	16	static
+../Core/Src/stm32411xx_spi_driver.c:331:6:SPI_IRQHandling	16	static

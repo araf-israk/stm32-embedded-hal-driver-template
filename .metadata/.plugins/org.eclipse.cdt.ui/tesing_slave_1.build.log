@@ -1,0 +1,397 @@
+10:45:49 **** Incremental Build of configuration Debug for project tesing_slave_1 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32411xx_spi_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32411xx_spi_driver.d" -MT"Core/Src/stm32411xx_spi_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32411xx_spi_driver.o"
+arm-none-eabi-gcc "../Core/Src/stm32f411xx_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f411xx_gpio.d" -MT"Core/Src/stm32f411xx_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f411xx_gpio.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/stm32f411xx.h:61: warning: "PERIPH_BASE" redefined
+   61 | #define PERIPH_BASE                                             0x40000000U
+      | 
+In file included from ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:154,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:29,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:275,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:638: note: this is the location of the previous definition
+  638 | #define PERIPH_BASE           0x40000000UL /*!< Peripheral base address in the alias region                                */
+      | 
+../Core/Inc/stm32f411xx.h:63: warning: "APB2PERIPH_BASE" redefined
+   63 | #define APB2PERIPH_BASE                                 0x40010000U
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:652: note: this is the location of the previous definition
+  652 | #define APB2PERIPH_BASE       (PERIPH_BASE + 0x00010000UL)
+      | 
+../Core/Inc/stm32f411xx.h:64: warning: "AHB1PERIPH_BASE" redefined
+   64 | #define AHB1PERIPH_BASE                                 0x40020000U
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:653: note: this is the location of the previous definition
+  653 | #define AHB1PERIPH_BASE       (PERIPH_BASE + 0x00020000UL)
+      | 
+../Core/Inc/stm32f411xx.h:218: warning: "GPIOA" redefined
+  218 | #define GPIOA                           ((GPIO_RegDef_t*) GPIOA_BASEADDR)
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:782: note: this is the location of the previous definition
+  782 | #define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+      | 
+../Core/Inc/stm32f411xx.h:219: warning: "GPIOB" redefined
+  219 | #define GPIOB                           ((GPIO_RegDef_t*) GPIOB_BASEADDR)
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:783: note: this is the location of the previous definition
+  783 | #define GPIOB               ((GPIO_TypeDef *) GPIOB_BASE)
+      | 
+../Core/Inc/stm32f411xx.h:220: warning: "GPIOC" redefined
+  220 | #define GPIOC                           ((GPIO_RegDef_t*) GPIOC_BASEADDR)
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:784: note: this is the location of the previous definition
+  784 | #define GPIOC               ((GPIO_TypeDef *) GPIOC_BASE)
+      | 
+../Core/Inc/stm32f411xx.h:221: warning: "GPIOD" redefined
+  221 | #define GPIOD                           ((GPIO_RegDef_t*) GPIOD_BASEADDR)
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:785: note: this is the location of the previous definition
+  785 | #define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+      | 
+../Core/Inc/stm32f411xx.h:222: warning: "GPIOE" redefined
+  222 | #define GPIOE                           ((GPIO_RegDef_t*) GPIOE_BASEADDR)
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:786: note: this is the location of the previous definition
+  786 | #define GPIOE               ((GPIO_TypeDef *) GPIOE_BASE)
+      | 
+../Core/Inc/stm32f411xx.h:223: warning: "GPIOH" redefined
+  223 | #define GPIOH                           ((GPIO_RegDef_t*) GPIOH_BASEADDR)
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:787: note: this is the location of the previous definition
+  787 | #define GPIOH               ((GPIO_TypeDef *) GPIOH_BASE)
+      | 
+../Core/Inc/stm32f411xx.h:225: warning: "RCC" redefined
+  225 | #define RCC                                     ((RCC_RegDef_t*) RCC_BASEADDR)
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:789: note: this is the location of the previous definition
+  789 | #define RCC                 ((RCC_TypeDef *) RCC_BASE)
+      | 
+../Core/Inc/stm32f411xx.h:226: warning: "EXTI" redefined
+  226 | #define EXTI                            ((EXTI_RegDef_t*) EXTI_BASEADDR)
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:777: note: this is the location of the previous definition
+  777 | #define EXTI                ((EXTI_TypeDef *) EXTI_BASE)
+      | 
+../Core/Inc/stm32f411xx.h:227: warning: "SYSCFG" redefined
+  227 | #define SYSCFG                          ((SYSCFG_RegDef_t*) SYSCFG_BASEADDR)
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:776: note: this is the location of the previous definition
+  776 | #define SYSCFG              ((SYSCFG_TypeDef *) SYSCFG_BASE)
+      | 
+../Core/Inc/stm32f411xx.h:229: warning: "SPI1" redefined
+  229 | #define SPI1                            ((SPI_RegDef_t*) SPI1_BASEADDR)
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:774: note: this is the location of the previous definition
+  774 | #define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+      | 
+../Core/Inc/stm32f411xx.h:230: warning: "SPI2" redefined
+  230 | #define SPI2                            ((SPI_RegDef_t*) SPI2_BASEADDR)
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:758: note: this is the location of the previous definition
+  758 | #define SPI2                ((SPI_TypeDef *) SPI2_BASE)
+      | 
+../Core/Inc/stm32f411xx.h:231: warning: "SPI3" redefined
+  231 | #define SPI3                            ((SPI_RegDef_t*) SPI3_BASEADDR)
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:759: note: this is the location of the previous definition
+  759 | #define SPI3                ((SPI_TypeDef *) SPI3_BASE)
+      | 
+../Core/Inc/stm32f411xx.h:232: warning: "SPI4" redefined
+  232 | #define SPI4                            ((SPI_RegDef_t*) SPI4_BASEADDR)
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:775: note: this is the location of the previous definition
+  775 | #define SPI4                ((SPI_TypeDef *) SPI4_BASE)
+      | 
+../Core/Inc/stm32f411xx.h:233: warning: "SPI5" redefined
+  233 | #define SPI5                            ((SPI_RegDef_t*) SPI5_BASEADDR)
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:781: note: this is the location of the previous definition
+  781 | #define SPI5                ((SPI_TypeDef *) SPI5_BASE)
+      | 
+../Core/Inc/stm32f411xx.h:398: warning: "SPI_CR1_CPHA" redefined
+  398 | #define SPI_CR1_CPHA                                     0
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5663: note: this is the location of the previous definition
+ 5663 | #define SPI_CR1_CPHA                SPI_CR1_CPHA_Msk                           /*!<Clock Phase      */
+      | 
+../Core/Inc/stm32f411xx.h:399: warning: "SPI_CR1_CPOL" redefined
+  399 | #define SPI_CR1_CPOL                                     1
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5666: note: this is the location of the previous definition
+ 5666 | #define SPI_CR1_CPOL                SPI_CR1_CPOL_Msk                           /*!<Clock Polarity   */
+      | 
+../Core/Inc/stm32f411xx.h:400: warning: "SPI_CR1_MSTR" redefined
+  400 | #define SPI_CR1_MSTR                                     2
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5669: note: this is the location of the previous definition
+ 5669 | #define SPI_CR1_MSTR                SPI_CR1_MSTR_Msk                           /*!<Master Selection */
+      | 
+../Core/Inc/stm32f411xx.h:401: warning: "SPI_CR1_BR" redefined
+  401 | #define SPI_CR1_BR                                       3
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5673: note: this is the location of the previous definition
+ 5673 | #define SPI_CR1_BR                  SPI_CR1_BR_Msk                             /*!<BR[2:0] bits (Baud Rate Control) */
+      | 
+../Core/Inc/stm32f411xx.h:402: warning: "SPI_CR1_SPE" redefined
+  402 | #define SPI_CR1_SPE                                      6
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5680: note: this is the location of the previous definition
+ 5680 | #define SPI_CR1_SPE                 SPI_CR1_SPE_Msk                            /*!<SPI Enable                          */
+      | 
+../Core/Inc/stm32f411xx.h:403: warning: "SPI_CR1_LSBFIRST" redefined
+  403 | #define SPI_CR1_LSBFIRST                                 7
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5683: note: this is the location of the previous definition
+ 5683 | #define SPI_CR1_LSBFIRST            SPI_CR1_LSBFIRST_Msk                       /*!<Frame Format                        */
+      | 
+../Core/Inc/stm32f411xx.h:404: warning: "SPI_CR1_SSI" redefined
+  404 | #define SPI_CR1_SSI                                      8
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5686: note: this is the location of the previous definition
+ 5686 | #define SPI_CR1_SSI                 SPI_CR1_SSI_Msk                            /*!<Internal slave select               */
+      | 
+../Core/Inc/stm32f411xx.h:405: warning: "SPI_CR1_SSM" redefined
+  405 | #define SPI_CR1_SSM                                      9
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5689: note: this is the location of the previous definition
+ 5689 | #define SPI_CR1_SSM                 SPI_CR1_SSM_Msk                            /*!<Software slave management           */
+      | 
+../Core/Inc/stm32f411xx.h:406: warning: "SPI_CR1_RXONLY" redefined
+  406 | #define SPI_CR1_RXONLY                          10
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5692: note: this is the location of the previous definition
+ 5692 | #define SPI_CR1_RXONLY              SPI_CR1_RXONLY_Msk                         /*!<Receive only                        */
+      | 
+../Core/Inc/stm32f411xx.h:407: warning: "SPI_CR1_DFF" redefined
+  407 | #define SPI_CR1_DFF                                     11
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5695: note: this is the location of the previous definition
+ 5695 | #define SPI_CR1_DFF                 SPI_CR1_DFF_Msk                            /*!<Data Frame Format                   */
+      | 
+../Core/Inc/stm32f411xx.h:408: warning: "SPI_CR1_CRCNEXT" redefined
+  408 | #define SPI_CR1_CRCNEXT                                 12
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5698: note: this is the location of the previous definition
+ 5698 | #define SPI_CR1_CRCNEXT             SPI_CR1_CRCNEXT_Msk                        /*!<Transmit CRC next                   */
+      | 
+../Core/Inc/stm32f411xx.h:409: warning: "SPI_CR1_CRCEN" redefined
+  409 | #define SPI_CR1_CRCEN                                   13
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5701: note: this is the location of the previous definition
+ 5701 | #define SPI_CR1_CRCEN               SPI_CR1_CRCEN_Msk                          /*!<Hardware CRC calculation enable     */
+      | 
+../Core/Inc/stm32f411xx.h:410: warning: "SPI_CR1_BIDIOE" redefined
+  410 | #define SPI_CR1_BIDIOE                                  14
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5704: note: this is the location of the previous definition
+ 5704 | #define SPI_CR1_BIDIOE              SPI_CR1_BIDIOE_Msk                         /*!<Output enable in bidirectional mode */
+      | 
+../Core/Inc/stm32f411xx.h:411: warning: "SPI_CR1_BIDIMODE" redefined
+  411 | #define SPI_CR1_BIDIMODE                        15
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5707: note: this is the location of the previous definition
+ 5707 | #define SPI_CR1_BIDIMODE            SPI_CR1_BIDIMODE_Msk                       /*!<Bidirectional data mode enable      */
+      | 
+../Core/Inc/stm32f411xx.h:416: warning: "SPI_CR2_RXDMAEN" redefined
+  416 | #define SPI_CR2_RXDMAEN                                 0
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5712: note: this is the location of the previous definition
+ 5712 | #define SPI_CR2_RXDMAEN             SPI_CR2_RXDMAEN_Msk                        /*!<Rx Buffer DMA Enable                 */
+      | 
+../Core/Inc/stm32f411xx.h:417: warning: "SPI_CR2_TXDMAEN" redefined
+  417 | #define SPI_CR2_TXDMAEN                                 1
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5715: note: this is the location of the previous definition
+ 5715 | #define SPI_CR2_TXDMAEN             SPI_CR2_TXDMAEN_Msk                        /*!<Tx Buffer DMA Enable                 */
+      | 
+../Core/Inc/stm32f411xx.h:418: warning: "SPI_CR2_SSOE" redefined
+  418 | #define SPI_CR2_SSOE                                    2
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5718: note: this is the location of the previous definition
+ 5718 | #define SPI_CR2_SSOE                SPI_CR2_SSOE_Msk                           /*!<SS Output Enable                     */
+      | 
+../Core/Inc/stm32f411xx.h:419: warning: "SPI_CR2_FRF" redefined
+  419 | #define SPI_CR2_FRF                                             4
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5721: note: this is the location of the previous definition
+ 5721 | #define SPI_CR2_FRF                 SPI_CR2_FRF_Msk                            /*!<Frame Format                         */
+      | 
+../Core/Inc/stm32f411xx.h:420: warning: "SPI_CR2_ERRIE" redefined
+  420 | #define SPI_CR2_ERRIE                                   5
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5724: note: this is the location of the previous definition
+ 5724 | #define SPI_CR2_ERRIE               SPI_CR2_ERRIE_Msk                          /*!<Error Interrupt Enable               */
+      | 
+../Core/Inc/stm32f411xx.h:421: warning: "SPI_CR2_RXNEIE" redefined
+  421 | #define SPI_CR2_RXNEIE                                  6
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5727: note: this is the location of the previous definition
+ 5727 | #define SPI_CR2_RXNEIE              SPI_CR2_RXNEIE_Msk                         /*!<RX buffer Not Empty Interrupt Enable */
+      | 
+../Core/Inc/stm32f411xx.h:422: warning: "SPI_CR2_TXEIE" redefined
+  422 | #define SPI_CR2_TXEIE                                   7
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5730: note: this is the location of the previous definition
+ 5730 | #define SPI_CR2_TXEIE               SPI_CR2_TXEIE_Msk                          /*!<Tx buffer Empty Interrupt Enable     */
+      | 
+../Core/Inc/stm32f411xx.h:428: warning: "SPI_SR_RXNE" redefined
+  428 | #define SPI_SR_RXNE                                             0
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5735: note: this is the location of the previous definition
+ 5735 | #define SPI_SR_RXNE                 SPI_SR_RXNE_Msk                            /*!<Receive buffer Not Empty */
+      | 
+../Core/Inc/stm32f411xx.h:429: warning: "SPI_SR_TXE" redefined
+  429 | #define SPI_SR_TXE                                              1
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5738: note: this is the location of the previous definition
+ 5738 | #define SPI_SR_TXE                  SPI_SR_TXE_Msk                             /*!<Transmit buffer Empty    */
+      | 
+../Core/Inc/stm32f411xx.h:430: warning: "SPI_SR_CHSIDE" redefined
+  430 | #define SPI_SR_CHSIDE                                   2
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5741: note: this is the location of the previous definition
+ 5741 | #define SPI_SR_CHSIDE               SPI_SR_CHSIDE_Msk                          /*!<Channel side             */
+      | 
+../Core/Inc/stm32f411xx.h:431: warning: "SPI_SR_UDR" redefined
+  431 | #define SPI_SR_UDR                                              3
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5744: note: this is the location of the previous definition
+ 5744 | #define SPI_SR_UDR                  SPI_SR_UDR_Msk                             /*!<Underrun flag            */
+      | 
+../Core/Inc/stm32f411xx.h:432: warning: "SPI_SR_CRCERR" redefined
+  432 | #define SPI_SR_CRCERR                                   4
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5747: note: this is the location of the previous definition
+ 5747 | #define SPI_SR_CRCERR               SPI_SR_CRCERR_Msk                          /*!<CRC Error flag           */
+      | 
+../Core/Inc/stm32f411xx.h:433: warning: "SPI_SR_MODF" redefined
+  433 | #define SPI_SR_MODF                                             5
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5750: note: this is the location of the previous definition
+ 5750 | #define SPI_SR_MODF                 SPI_SR_MODF_Msk                            /*!<Mode fault               */
+      | 
+../Core/Inc/stm32f411xx.h:434: warning: "SPI_SR_OVR" redefined
+  434 | #define SPI_SR_OVR                                              6
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5753: note: this is the location of the previous definition
+ 5753 | #define SPI_SR_OVR                  SPI_SR_OVR_Msk                             /*!<Overrun flag             */
+      | 
+../Core/Inc/stm32f411xx.h:435: warning: "SPI_SR_BSY" redefined
+  435 | #define SPI_SR_BSY                                              7
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5756: note: this is the location of the previous definition
+ 5756 | #define SPI_SR_BSY                  SPI_SR_BSY_Msk                             /*!<Busy flag                */
+      | 
+../Core/Inc/stm32f411xx.h:436: warning: "SPI_SR_FRE" redefined
+  436 | #define SPI_SR_FRE                                              8
+      | 
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:5759: note: this is the location of the previous definition
+ 5759 | #define SPI_SR_FRE                  SPI_SR_FRE_Msk                             /*!<Frame format error flag  */
+      | 
+In file included from ../Core/Inc/stm32f411xx.h:439:
+../Core/Inc/stm32f411xx_gpio.h:63: warning: "GPIO_MODE_ANALOG" redefined
+   63 | #define GPIO_MODE_ANALOG        3
+      | 
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:279:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:123: note: this is the location of the previous definition
+  123 | #define  GPIO_MODE_ANALOG                       MODE_ANALOG                                                 /*!< Analog Mode  */
+      | 
+../Core/Inc/stm32f411xx_gpio.h:79: warning: "GPIO_SPEED_LOW" redefined
+   79 | #define GPIO_SPEED_LOW          0
+      | 
+In file included from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:30:
+../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:781: note: this is the location of the previous definition
+  781 | #define  GPIO_SPEED_LOW                           GPIO_SPEED_FREQ_LOW
+      | 
+../Core/Inc/stm32f411xx_gpio.h:80: warning: "GPIO_SPEED_MEDIUM" redefined
+   80 | #define GPIO_SPEED_MEDIUM       1
+      | 
+../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:782: note: this is the location of the previous definition
+  782 | #define  GPIO_SPEED_MEDIUM                        GPIO_SPEED_FREQ_MEDIUM
+      | 
+../Core/Inc/stm32f411xx_gpio.h:81: warning: "GPIO_SPEED_FAST" redefined
+   81 | #define GPIO_SPEED_FAST         2
+      | 
+../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:783: note: this is the location of the previous definition
+  783 | #define  GPIO_SPEED_FAST                          GPIO_SPEED_FREQ_HIGH
+      | 
+../Core/Inc/stm32f411xx_gpio.h:82: warning: "GPIO_SPEED_HIGH" redefined
+   82 | #define GPIO_SPEED_HIGH         3
+      | 
+../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:784: note: this is the location of the previous definition
+  784 | #define  GPIO_SPEED_HIGH                          GPIO_SPEED_FREQ_VERY_HIGH
+      | 
+../Core/Src/main.c: In function 'main':
+../Core/Inc/stm32f411xx.h:218:41: warning: passing argument 1 of 'HAL_GPIO_ReadPin' from incompatible pointer type [-Wincompatible-pointer-types]
+  218 | #define GPIOA                           ((GPIO_RegDef_t*) GPIOA_BASEADDR)
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                         |
+      |                                         GPIO_RegDef_t *
+../Core/Src/main.c:104:34: note: in expansion of macro 'GPIOA'
+  104 |           while(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_4)){}
+      |                                  ^~~~~
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:234:46: note: expected 'GPIO_TypeDef *' but argument is of type 'GPIO_RegDef_t *'
+  234 | GPIO_PinState HAL_GPIO_ReadPin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+      |                                ~~~~~~~~~~~~~~^~~~~
+../Core/Inc/stm32f411xx.h:220:41: warning: passing argument 1 of 'HAL_GPIO_TogglePin' from incompatible pointer type [-Wincompatible-pointer-types]
+  220 | #define GPIOC                           ((GPIO_RegDef_t*) GPIOC_BASEADDR)
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                         |
+      |                                         GPIO_RegDef_t *
+../Core/Src/main.c:112:38: note: in expansion of macro 'GPIOC'
+  112 |                   HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
+      |                                      ^~~~~
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:236:39: note: expected 'GPIO_TypeDef *' but argument is of type 'GPIO_RegDef_t *'
+  236 | void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+      |                         ~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'MX_SPI1_Init':
+../Core/Src/main.c:179:18: warning: assignment to 'SPI_TypeDef *' from incompatible pointer type 'SPI_RegDef_t *' [-Wincompatible-pointer-types]
+  179 |   hspi1.Instance = SPI1;
+      |                  ^
+../Core/Src/main.c: In function 'MX_GPIO_Init':
+../Core/Inc/stm32f411xx.h:220:41: warning: passing argument 1 of 'HAL_GPIO_WritePin' from incompatible pointer type [-Wincompatible-pointer-types]
+  220 | #define GPIOC                           ((GPIO_RegDef_t*) GPIOC_BASEADDR)
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                         |
+      |                                         GPIO_RegDef_t *
+../Core/Src/main.c:218:21: note: in expansion of macro 'GPIOC'
+  218 |   HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
+      |                     ^~~~~
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:235:38: note: expected 'GPIO_TypeDef *' but argument is of type 'GPIO_RegDef_t *'
+  235 | void HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                        ~~~~~~~~~~~~~~^~~~~
+../Core/Inc/stm32f411xx.h:220:41: warning: passing argument 1 of 'HAL_GPIO_Init' from incompatible pointer type [-Wincompatible-pointer-types]
+  220 | #define GPIOC                           ((GPIO_RegDef_t*) GPIOC_BASEADDR)
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                         |
+      |                                         GPIO_RegDef_t *
+../Core/Src/main.c:225:17: note: in expansion of macro 'GPIOC'
+  225 |   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+      |                 ^~~~~
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:224:36: note: expected 'GPIO_TypeDef *' but argument is of type 'GPIO_RegDef_t *'
+  224 | void  HAL_GPIO_Init(GPIO_TypeDef  *GPIOx, GPIO_InitTypeDef *GPIO_Init);
+      |                     ~~~~~~~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "tesing_slave_1.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\STM32Projects\Embedded Driver Develpoment Course 1 codes\tesing_slave_1\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tesing_slave_1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: tesing_slave_1.elf
+ 
+arm-none-eabi-size  tesing_slave_1.elf 
+arm-none-eabi-objdump -h -S tesing_slave_1.elf  > "tesing_slave_1.list"
+   text	   data	    bss	    dec	    hex	filename
+   6316	     12	   1660	   7988	   1f34	tesing_slave_1.elf
+Finished building: default.size.stdout
+ 
+Finished building: tesing_slave_1.list
+ 
+
+10:45:50 Build Finished. 0 errors, 57 warnings. (took 846ms)
+

@@ -1,0 +1,17 @@
+09:46:59 **** Incremental Build of configuration Debug for project stm32f4xx_drivers ****
+make -j16 all 
+arm-none-eabi-gcc "../Src/012i2c_master_rx_testingIT.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F411CEUx -c -I../Inc -I"D:/STM32Projects/Embedded Driver Develpoment Course 1 codes/stm32f4xx_drivers/drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/012i2c_master_rx_testingIT.d" -MT"Src/012i2c_master_rx_testingIT.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/012i2c_master_rx_testingIT.o"
+arm-none-eabi-gcc -o "stm32f4xx_drivers.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\STM32Projects\Embedded Driver Develpoment Course 1 codes\stm32f4xx_drivers\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f4xx_drivers.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32f4xx_drivers.elf
+ 
+arm-none-eabi-size  stm32f4xx_drivers.elf 
+arm-none-eabi-objdump -h -S stm32f4xx_drivers.elf  > "stm32f4xx_drivers.list"
+   text	   data	    bss	    dec	    hex	filename
+   4604	     24	   1656	   6284	   188c	stm32f4xx_drivers.elf
+Finished building: default.size.stdout
+ 
+Finished building: stm32f4xx_drivers.list
+ 
+
+09:47:00 Build Finished. 0 errors, 0 warnings. (took 571ms)
+

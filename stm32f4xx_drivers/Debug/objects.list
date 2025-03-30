@@ -1,0 +1,7 @@
+"./Src/012i2c_master_rx_testingIT.o"
+"./Src/syscalls.o"
+"./Src/sysmem.o"
+"./Startup/startup_stm32f411ceux.o"
+"./drivers/Src/stm32411xx_spi_driver.o"
+"./drivers/Src/stm32f411xx_gpio.o"
+"./drivers/Src/stm32f411xx_i2c_driver.o"
